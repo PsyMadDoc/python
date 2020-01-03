@@ -132,3 +132,158 @@ def lots_of_math(a, b, c, d):
 # should print 3, -1, -3, 0
 # print(lots_of_math(1, 1, 1, 1))
 # should print 2, 0, 0, 0
+
+####################
+
+# Write your in_range function here:
+
+
+def in_range(num, lower, upper):
+    if upper >= num >= lower:
+        return True
+    else:
+        return False
+
+# Uncomment these function calls to test your in_range function:
+# print(in_range(10, 10, 10))
+# should print True
+# print(in_range(5, 10, 20))
+# should print False
+
+####################
+
+# Create a function named movie_review() that has one parameter named rating.
+# If rating is less than or equal to 5, return "Avoid at all costs!". If rating is between 5 and 9, return "This one was fun.". If rating is 9 or above, return "Outstanding!"
+
+# Write your movie_review function here:
+
+
+def movie_review(rating):
+    if rating <= 5:
+        return 'Avoid at all costs!'
+    elif 5 < rating < 9:
+        return 'This one was fun.'
+    else:
+        return 'Outstanding!'
+
+# Uncomment these function calls to test your movie_review function:
+# print(movie_review(9))
+# should print "Outstanding!"
+# print(movie_review(4))
+# should print "Avoid at all costs!"
+# print(movie_review(6))
+# should print "This one was fun."
+
+####################
+
+# Write your twice_as_large function here:
+
+
+def twice_as_large(num1, num2):
+    if num1 > num2 * 2:
+        return True
+    else:
+        return False
+# Uncomment these function calls to test your twice_as_large function:
+# print(twice_as_large(10, 5))
+# should print False
+# print(twice_as_large(11, 5))
+# should print True
+
+####################
+
+# Write your large_power function here:
+
+
+def large_power(base, exponent):
+    pow = True if base**exponent > 5000 else False
+    return pow
+
+
+# Uncomment these function calls to test your large_power function:
+# print(large_power(2, 13))
+# should print True
+# print(large_power(2, 12))
+# should print False
+
+####################
+
+# Write your divisible_by_ten function here:
+def divisible_by_ten(num):
+    if num % 10 == 0:
+        return True
+    else:
+        return False
+
+# Uncomment these function calls to test your divisible_by_ten function:
+# print(divisible_by_ten(20))
+# should print True
+# print(divisible_by_ten(25))
+# should print False
+
+####################
+
+# Write your max_num function here:
+
+
+def max_num(num1, num2, num3):
+    if num1 < num2 or num1 < num3:
+        if num2 > num3:
+            return num2
+        elif num2 == num3:
+            return 'It\'s a tie!'
+        else:
+            return num3
+    elif num1 > num2 and num1 > num3:
+        return num1
+    else:
+        return 'It\'s a tie!'
+
+# Uncomment these function calls to test your max_num function:
+# print(max_num(-10, 0, 10))
+# should print 10
+# print(max_num(-10, 5, -30))
+# should print 5
+# print(max_num(-5, -10, -10))
+# should print -5
+# print(max_num(2, 3, 3))
+# should print "It's a tie!"
+
+####################
+
+# Write your always_false function here:
+
+
+def always_false(num):
+    if num == num:
+        return False
+
+# Uncomment these function calls to test your always_false function:
+# print(always_false(-1))
+# should print False
+
+####################
+
+# Write your same_name function here:
+
+
+def same_name(your_name, my_name):
+    if str(your_name) == str(my_name):
+        return True
+    else:
+        return False
+
+
+# Uncomment these function calls to test your same_name function:
+# print(same_name("Colby", "Colby"))
+# should print True
+# print(same_name("Tina", "Amber"))
+# should print False
+
+####################
+
+
+####################
+
+
+####################
